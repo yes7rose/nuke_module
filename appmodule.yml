@@ -1,0 +1,21 @@
+application:
+    win:
+        path: C:/Program Files/Nuke8.0v6/Nuke8.0.exe
+        args: []
+    linux:
+        path: /usr/local/Nuke8.0v6/Nuke8.0
+        args: []
+    osx:
+        path: /Applications/Nuke8.0v6/Nuke8.0v6.app/Nuke8.0
+        args: []
+
+environment:
+    NUKE_PATH:
+        - '.'
+    PYTHONPATH:
+        - './python'
+
+dependencies:
+    pip: []
+    git: []
+    include: []
