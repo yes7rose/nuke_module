@@ -1,19 +1,19 @@
-application:
+command:
     win:
         path: C:/Program Files/Nuke8.0v6/Nuke8.0.exe
-        args: []
+        args: ['-b']
     linux:
         path: /usr/local/Nuke8.0v6/Nuke8.0
-        args: []
+        args: ['-b']
     osx:
         path: /Applications/Nuke8.0v6/Nuke8.0v6.app/Nuke8.0
-        args: []
+        args: ['-b']
 
 environment:
     NUKE_PATH:
-        - '.'
+        - '$CPENV_APP'
     PYTHONPATH:
-        - './python'
+        - '$CPENV_APP/python'
 
 dependencies:
     pip: []
