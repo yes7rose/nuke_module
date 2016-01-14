@@ -11,9 +11,9 @@ command:
 
 environment:
     NUKE_PATH:
-        - '$CPENV_APP'
+        - '$MODULE'
     PYTHONPATH:
-        - '$CPENV_APP/python'
+        - '$MODULE/python'
 
 dependencies:
     pip: []
